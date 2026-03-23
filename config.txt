@@ -1,0 +1,13 @@
+# 24小时壁纸配置
+# 格式: 小时|完整路径|描述|过渡毫秒
+
+0|D:\Program Files\wallpaper test\6.bmp|深夜星空|3000
+5|D:\Program Files\wallpaper test\9.bmp|黎明前|2000
+6|D:\Program Files\wallpaper test\2.bmp|起床|4000
+8|D:\Program Files\wallpaper test\1.bmp|上学|2000
+12|D:\Program Files\wallpaper test\4.bmp|正午阳光|2000
+14|D:\Program Files\wallpaper test\7.bmp|上学|2000
+17|D:\Program Files\wallpaper test\5.bmp|放学|2000
+19|D:\Program Files\wallpaper test\3.bmp|星空|5000
+20|D:\Program Files\wallpaper test\8.bmp|DJ|3000
+22D:\Program Files\wallpaper test\10.bmp|深夜|2000

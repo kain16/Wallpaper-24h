@@ -1,0 +1,54 @@
+[配置] 生成默认配置文件：D:\LFL\Program Files\C语言\Wallpaper 24h\x64\Debug\config.txt
+[配置] 生成默认配置文件：D:\LFL\Program Files\C语言\Wallpaper 24h\x64\Debug\config.txt
+[配置] 生成默认配置文件：D:\LFL\Program Files\C语言\Wallpaper 24h\x64\Debug\config.txt
+[匹配] 当前小时22 → 配置小时20 → 壁纸：D:\kain016\Pictures\Camera Roll\8.bmp
+[匹配] 当前小时22 → 配置小时20 → 壁纸：D:\kain016\Pictures\Camera Roll\8.bmp
+[匹配] 当前小时22 → 配置小时20 → 壁纸：D:\kain016\Pictures\Camera Roll\8.bmp
+[匹配] 当前小时22 → 配置小时19 → 壁纸：D:\kain016\Pictures\Camera Roll\3.bmp
+[匹配] 当前小时22 → 配置小时22 → 壁纸：D:\kain016\Pictures\Camera Roll\10.bmp
+[匹配] 当前小时23 → 配置小时22 → 壁纸：D:\kain016\Pictures\Camera Roll\10.bmp
+[切换] 小时22 → 小时23，壁纸：D:\kain016\Pictures\Camera Roll\10.bmp
+[匹配] 当前小时23 → 配置小时23 → 壁纸：D:\kain016\Pictures\Camera Roll\7.bmp
+[匹配] 当前小时23 → 配置小时23 → 壁纸：D:\kain016\Pictures\Camera Roll\7.bmp
+[匹配] 当前小时23 → 配置小时23 → 壁纸：D:\kain016\Pictures\Camera Roll\7.bmp
+[匹配] 当前小时23 → 配置小时22 → 壁纸：D:\kain016\Pictures\Camera Roll\10.bmp
+[匹配] 当前小时17 → 配置小时14 → 壁纸：D:\kain016\Pictures\Camera Roll\7.bmp
+[Parse OK] 0|D:\kain016\Pictures\Camera Roll\6.bmp|3000
+[Parse OK] 5|D:\kain016\Pictures\Camera Roll\9.bmp|2000
+[Parse OK] 6|D:\kain016\Pictures\Camera Roll\2.bmp|4000
+[Parse OK] 8|D:\kain016\Pictures\Camera Roll\1.bmp|2000
+[Parse OK] 12|D:\kain016\Pictures\Camera Roll\4.bmp|2000
+[Parse OK] 14|D:\kain016\Pictures\Camera Roll\7.bmp|2000
+[Parse OK] 17|D:\kain016\Pictures\Camera Roll\5.bmp|2000
+[Parse OK] 19|D:\kain016\Pictures\Camera Roll\3.bmp|5000
+[Parse OK] 20|D:\kain016\Pictures\Camera Roll\9.bmp|3000
+[Parse OK] 22|D:\kain016\Pictures\Camera Roll\10.bmp|2000
+[匹配] 当前小时17 → 配置小时17 → 壁纸：D:\kain016\Pictures\Camera Roll\5.bmp
+[Set Wallpaper] D:\kain016\Pictures\Camera Roll\5.bmp , OK
+[Update Path] D:\kain016\Pictures\Camera Roll\5.bmp
+[Parse OK] 0|D:\kain016\Pictures\Camera Roll\6.bmp|3000
+[Parse OK] 5|D:\kain016\Pictures\Camera Roll\9.bmp|2000
+[Parse OK] 6|D:\kain016\Pictures\Camera Roll\2.bmp|4000
+[Parse OK] 8|D:\kain016\Pictures\Camera Roll\1.bmp|2000
+[Parse OK] 12|D:\kain016\Pictures\Camera Roll\4.bmp|2000
+[Parse OK] 14|D:\kain016\Pictures\Camera Roll\7.bmp|2000
+[Parse OK] 17|D:\kain016\Pictures\Camera Roll\4.bmp|2000
+[Parse OK] 19|D:\kain016\Pictures\Camera Roll\3.bmp|5000
+[Parse OK] 20|D:\kain016\Pictures\Camera Roll\9.bmp|3000
+[Parse OK] 22|D:\kain016\Pictures\Camera Roll\10.bmp|2000
+[匹配] 当前小时17 → 配置小时17 → 壁纸：D:\kain016\Pictures\Camera Roll\4.bmp
+[Set Wallpaper] D:\kain016\Pictures\Camera Roll\4.bmp , OK
+[Update Path] D:\kain016\Pictures\Camera Roll\4.bmp
+[Parse OK] 0|D:\kain016\Pictures\Camera Roll\6.bmp|5000
+[Parse OK] 5|D:\kain016\Pictures\Camera Roll\9.bmp|5000
+[Parse OK] 6|D:\kain016\Pictures\Camera Roll\2.bmp|4000
+[Parse OK] 8|D:\kain016\Pictures\Camera Roll\1.bmp|3000
+[Parse OK] 12|D:\kain016\Pictures\Camera Roll\4.bmp|3000
+[Parse OK] 14|D:\kain016\Pictures\Camera Roll\7.bmp|3000
+[Parse OK] 17|D:\kain016\Pictures\Camera Roll\5.bmp|3000
+[Parse OK] 19|D:\kain016\Pictures\Camera Roll\3.bmp|5000
+[Parse OK] 20|D:\kain016\Pictures\Camera Roll\9.bmp|3000
+[Parse OK] 22|D:\kain016\Pictures\Camera Roll\10.bmp|3000
+[匹配] 当前小时17 → 配置小时17 → 壁纸：D:\kain016\Pictures\Camera Roll\5.bmp
+[Set Wallpaper] D:\kain016\Pictures\Camera Roll\5.bmp , OK
+[Update Path] D:\kain016\Pictures\Camera Roll\5.bmp
