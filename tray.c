@@ -5,7 +5,7 @@
 
 #define TRAY_ICON_ID 1
 #define WM_SHOW_SETTINGS (WM_USER + 1)
-//È«¾ÖÍĞÅÌÊı¾İºÍ²Ëµ¥¾ä±ú
+//å…¨å±€æ‰˜ç›˜æ•°æ®å’Œèœå•å¥æŸ„
 static NOTIFYICONDATA nid;
 static HMENU hMenu;
 
@@ -17,34 +17,34 @@ BOOL InitSystemTray(HWND hwnd) {
     nid.uFlags = NIF_ICON | NIF_MESSAGE | NIF_TIP;
     nid.uCallbackMessage = WM_TRAYICON;
     nid.hIcon = LoadIcon(NULL, IDI_APPLICATION);
-    strcpy(nid.szTip, "24Ğ¡Ê±¶¯Ì¬±ÚÖ½ÒıÇæ");
+    strcpy(nid.szTip, "24å°æ—¶åŠ¨æ€å£çº¸å¼•æ“");
 
-    //Ìí¼ÓÍĞÅÌÍ¼±ê
+    //æ·»åŠ æ‰˜ç›˜å›¾æ ‡
     if (!Shell_NotifyIcon(NIM_ADD, &nid)) {
         return FALSE;
     }
 
-    // ´´½¨ÓÒ¼ü²Ëµ¥
+    // åˆ›å»ºå³é”®èœå•
     hMenu = CreatePopupMenu();
-    AppendMenu(hMenu, MF_STRING, ID_TRAY_SETTINGS, "ÉèÖÃ(&S)");
-    AppendMenu(hMenu, MF_STRING, ID_TRAY_REFRESH, "Ë¢ĞÂÅäÖÃ(&R)");
-    AppendMenu(hMenu, MF_SEPARATOR, 0, NULL); //·Ö¸ôÏß
-    AppendMenu(hMenu, MF_STRING, ID_TRAY_ABOUT, "¹ØÓÚ(&A)");
-    AppendMenu(hMenu, MF_STRING, ID_TRAY_EXIT, "ÍË³ö(&X)");
+    AppendMenu(hMenu, MF_STRING, ID_TRAY_SETTINGS, "è®¾ç½®(&S)");
+    AppendMenu(hMenu, MF_STRING, ID_TRAY_REFRESH, "åˆ·æ–°é…ç½®(&R)");
+    AppendMenu(hMenu, MF_SEPARATOR, 0, NULL); //åˆ†éš”çº¿
+    AppendMenu(hMenu, MF_STRING, ID_TRAY_ABOUT, "å…³äº(&A)");
+    AppendMenu(hMenu, MF_STRING, ID_TRAY_EXIT, "é€€å‡º(&X)");
    
     return TRUE;
 }
-//ÏÔÊ¾ÓÒ¼ü²Ëµ¥
+//æ˜¾ç¤ºå³é”®èœå•
 void ShowContextMenu(HWND hwnd) {
     POINT pt;
     GetCursorPos(&pt);
-    //ÏÔÊ¾²Ëµ¥
+    //æ˜¾ç¤ºèœå•
     SetForegroundWindow(hwnd);
     TrackPopupMenu(hMenu, TPM_RIGHTALIGN | TPM_BOTTOMALIGN | TPM_RIGHTBUTTON,
         pt.x, pt.y, 0, hwnd, NULL);
-    PostMessage(hwnd, WM_NULL, 0, 0);//¼¤»î²Ëµ¥
+    PostMessage(hwnd, WM_NULL, 0, 0);//æ¿€æ´»èœå•
 }
-//Çå³şÏµÍ³ÍĞÅÌ
+//æ¸…æ¥šç³»ç»Ÿæ‰˜ç›˜
 void CleanupTray(void) {
     Shell_NotifyIcon(NIM_DELETE, &nid);
     DestroyMenu(hMenu);

@@ -7,10 +7,10 @@ void GenerateDefaultConfig(const char* path);
 void GetConfigPath(char* outPath, size_t size);
 
 typedef struct {
-    int hour;          // Ğ¡Ê±
-    char imgPath[MAX_PATH]; // Í¼Æ¬Â·¾¶
-    char desc[100];    // ÃèÊö
-    int duration;      // ÏÔÊ¾Ê±³¤£¨ºÁÃë£©
+    int hour;          // å°æ—¶
+    char imgPath[MAX_PATH]; // å›¾ç‰‡è·¯å¾„
+    char desc[100];    // æè¿°
+    int duration;      // æ˜¾ç¤ºæ—¶é•¿ï¼ˆæ¯«ç§’ï¼‰
 } WallpaperConfig;
 
 int ReadConfigFile(const char* path, WallpaperConfig* outConfigs, int maxCount);
