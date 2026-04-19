@@ -29,12 +29,50 @@ Wallpaper-24h/
 
 ## 🚀 安装方法
 
-### 方法一：编译源码
+### 方法一：使用Visual Studio编译
 1. 使用Visual Studio打开 `Wallpaper 24h.sln` 解决方案
 2. 编译项目生成可执行文件
 3. 运行生成的 `Wallpaper 24h.exe`
 
-### 方法二：直接运行
+### 方法二：使用MSBuild命令行编译
+1. 确保系统已安装Visual Studio Build Tools或Visual Studio
+2. 打开命令提示符或PowerShell
+3. 根据您的Visual Studio版本执行相应的命令：
+   
+   **Visual Studio 2022**：
+   ```powershell
+   # 使用完整路径执行MSBuild
+   & "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\MSBuild.exe" "Wallpaper 24h.sln" /p:Configuration=Release
+   ```
+   
+   **Visual Studio 2026**：
+   ```powershell
+   # 使用完整路径执行MSBuild
+   & "C:\Program Files (x86)\Microsoft Visual Studio\2026\BuildTools\MSBuild\Current\Bin\MSBuild.exe" "Wallpaper 24h.sln" /p:Configuration=Release
+   ```
+   
+   **Community版本**：
+   ```powershell
+   # Visual Studio 2022 Community
+   & "C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" "Wallpaper 24h.sln" /p:Configuration=Release
+   
+   # Visual Studio 2026 Community
+   & "C:\Program Files\Microsoft Visual Studio\2026\Community\MSBuild\Current\Bin\MSBuild.exe" "Wallpaper 24h.sln" /p:Configuration=Release
+   ```
+4. 编译完成后，在 `x64\Release` 目录中找到 `Wallpaper 24h.exe`
+
+**版本兼容性说明**：
+- 本项目支持Visual Studio 2022及以上版本
+- 确保安装了C++桌面开发工作负载
+- 如果使用Visual Studio Build Tools，确保安装了MSBuild和C++构建工具
+- 不同版本的Visual Studio可能会有不同的安装路径，请根据实际安装位置调整MSBuild路径
+
+### 方法三：使用一键发行脚本
+1. 运行项目根目录下的 `publish.bat` 脚本
+2. 脚本会自动编译项目并准备发行文件
+3. 在 `x64\Release` 目录中找到发行版文件
+
+### 方法四：直接运行
 1. 下载编译好的可执行文件
 2. 解压到任意目录
 3. 运行 `Wallpaper 24h.exe`
